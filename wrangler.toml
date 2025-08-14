@@ -1,0 +1,13 @@
+name = "mastra-ai-chat"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = "dist"
+
+[env.production]
+name = "mastra-ai-chat"
+
+[env.staging]
+name = "mastra-ai-chat-staging"
+
+# 环境变量在 Cloudflare Dashboard 中设置
+# MASTRA_API_URL = "your-production-mastra-url"
+# NODE_VERSION = "18"
